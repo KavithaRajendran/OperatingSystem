@@ -14,6 +14,20 @@ Also it prints the total number of commands executed just before terminating you
 
 Assumption: Each line represents one command only, no command will end with & (all commands will be attached commands, no background execution), user will not type ^c or ^z, all commands are simple commands, etc.
 
-Project 2 - Design Unix File System:
+Project 2 - Design a Unix File System:
 ------------------------------------
+A C program fsaccess.c, which allows a user access to the file system of a foreign operating system, the modified Unix v6 file system
 
+How to execute fsaccess file:
+    gcc -o fsaccess fsaccess.c
+    ./fsaccess
+
+This will give a prompt ">>"
+
+What inputs to be given:
+    initfs <fsize> <total_num_of_inodes>
+    cpin <external_sourceFilePath> <destination_path>
+    cpout <internal_sourceFilePath> <external_destPath>
+    mkdir <DirectoryPath>
+    rm <FilePath>
+    Type q to exit
