@@ -3,9 +3,16 @@
  * File Name: fsaccess.c
  *
  * How to execute this file:
- *  gcc -o output_file_name fsaccess.c
- *  ./output_file_name
- *
+ * 	gcc -o output_file_name fsaccess.c
+ *  	./output_file_name
+ *  		This will give a prompt ">>"
+ * 		What inputs to be given:
+ *   		initfs <fsize> <total_num_of_inodes>
+ *   		cpin <external_sourceFilePath> <destination_path>
+ *   		cpout <internal_sourceFilePath> <external_destPath>
+ *   		mkdir <DirectoryPath>
+ *   		rm <FilePath>
+ *   		Type q to exit
  * Description:
  *  Implementation of Unix V6 filesystem
  *
