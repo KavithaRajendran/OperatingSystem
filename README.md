@@ -1,8 +1,8 @@
 # OperatingSystem
 
-Project 1:
-----------
-Write a C program called myshell.c, which, when compiled and run, will do what the shell does, namely:
+Project 1 - My own shell which can execute all Unix Commands:
+-------------------------------------------------------------
+A C program called myshell.c, which, when compiled and run, will do what the shell does, namely:
 
 It executes in a loop (until user types exit on the keyboard); 
 Prints a prompt on the screen;
@@ -14,6 +14,6 @@ Also it prints the total number of commands executed just before terminating you
 
 Assumption: Each line represents one command only, no command will end with & (all commands will be attached commands, no background execution), user will not type ^c or ^z, all commands are simple commands, etc.
 
-Project 2:
-----------
-Design Unix File System
+Project 2 - Design Unix File System:
+------------------------------------
+
